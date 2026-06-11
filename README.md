@@ -50,17 +50,100 @@ Please answer the following questions in a markdown file called <code>Answers to
 
 <h2>Project Setup</h2>
 
-<h5>1. Clone repository</h5>
+<h5>1. Clone the Repository</h5>
 <ul>
 	<li>git clone https://github.com/karanpgajjar/wpoets-fullstack-test.git</li>
+	<li>Move into the project directory:</li>
+	<ul>
+		<li>cd wpoets-fullstack-test</li>
+	</ul>
 </ul>
 
-<h5>2. Configure database</h5>
+<h5>2. Create Database</h5>
 <ul>
-	<li>Update DB credentials in db.php</li>
+	<li>Create a new MySQL database.</li>
+	<li>Example:</li>
+	<ul>
+		<li>CREATE DATABASE wpoets_test;</li>
+	</ul>
 </ul>
 
-<h5>3. Update Base URL</h5>
+<h5>3. Import Database Schema</h5>
 <ul>
-	<li>Change Base URL in config.php</li>
+	<li>Import the provided SQL file into the database:</li>
+	<ul>
+		<li>wpoets.sql</li>
+	</ul>
+	<li>You can import it using phpMyAdmin or MySQL command line.</li>
+</ul>
+
+<h5>4. Configure Database Connection</h5>
+<ul>
+	<li>Open the following file:</li>
+	<ul>
+		<li>config/db.php</li>
+		<li>Update the database credentials:</li>
+		<span>$host = "localhost";</span>
+		<span>$username = "root";</span>
+		<span>$password = "";</span>
+		<span>$database = "wpoets_test";</span>
+	</ul>
+</ul>
+
+<h5>5. Configure Base URL</h5>
+<ul>
+	<li>Open:</li>
+	<ul>
+		<li>config/config.php</li>
+	</ul>
+	<li>Update the base URL according to your local environment:</li>
+	<ul>
+		<li>define('BASE_URL', 'http://localhost/wpoets-fullstack-test/');</li>
+	</ul>
+</ul>
+
+<h5>6. Run the Application</h5>
+<ul>
+	<li>Place the project inside your web server directory:</li>
+	<ul>
+		<li>XAMPP → htdocs</li>
+		<li>WAMP → www</li>
+		<li>MAMP → htdocs</li>
+	</ul>
+	<li>Start</li>
+	<ul>
+		<li>Apache</li>
+		<li>MySQL</li>
+	</ul>
+	<li>Then open:</li>
+	<ul>
+		<li>http://localhost/wpoets-fullstack-test/</li>
+	</ul>
+</ul>
+
+<h2>Requirements</h2>
+<ul>
+	<li>PHP 8.0+</li>
+	<li>MySQL 5.7+ or MySQL 8+</li>
+	<li>Apache Server</li>
+	<li>XAMPP/WAMP/MAMP</li>
+</ul>
+
+<h2>Project Structure</h2>
+<li>config/</li>
+<ul>
+	<li>config.php</li>
+	<li>db.php</li>
+</ul>
+<li>assets/</li>
+<li>controllers/</li>
+<li>models/</li>
+<li>wpoets.sql</li>
+
+<h2>Notes</h2>
+<ul>
+	<li>Database schema is included in wpoets.sql.</li>
+	<li>Update database credentials before running the project.</li>
+	<li>Update the base URL if the project directory name is changed.</li>
+	<li>No additional dependencies are required.</li>
 </ul>
