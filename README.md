@@ -1,6 +1,6 @@
+# PROJECT SETUP
 
-#PROJECT SETUP
-<h5>1. Clone the Repository</h5>
+<h2>1. Clone the Repository</h2>
 <ul>
 	<li>git clone https://github.com/karanpgajjar/wpoets-fullstack-test.git</li>
 	<li>Move into the project directory:</li>
@@ -9,7 +9,7 @@
 	</ul>
 </ul>
 
-<h5>2. Create Database</h5>
+<h2>2. Create Database</h2>
 <ul>
 	<li>Create a new MySQL database.</li>
 	<li>Example:</li>
@@ -18,7 +18,7 @@
 	</ul>
 </ul>
 
-<h5>3. Import Database Schema</h5>
+<h2>3. Import Database Schema</h2>
 <ul>
 	<li>Import the provided SQL file into the database:</li>
 	<ul>
@@ -27,7 +27,7 @@
 	<li>You can import it using phpMyAdmin or MySQL command line.</li>
 </ul>
 
-<h5>4. Configure Database Connection</h5>
+<h2>4. Configure Database Connection</h2>
 <ul>
 	<li>Open the following file:</li>
 	<ul>
@@ -40,7 +40,7 @@
 	</ul>
 </ul>
 
-<h5>5. Configure Base URL</h5>
+<h2>5. Configure Base URL</h2>
 <ul>
 	<li>Open:</li>
 	<ul>
@@ -52,7 +52,7 @@
 	</ul>
 </ul>
 
-<h5>6. Run the Application</h5>
+<h2>6. Run the Application</h2>
 <ul>
 	<li>Place the project inside your web server directory:</li>
 	<ul>
@@ -71,7 +71,9 @@
 	</ul>
 </ul>
 
-<h2>Requirements</h2>
+
+# REQUIREMENTS
+
 <ul>
 	<li>PHP 8.0+</li>
 	<li>MySQL 5.7+ or MySQL 8+</li>
@@ -79,7 +81,9 @@
 	<li>XAMPP/WAMP/MAMP</li>
 </ul>
 
-<h2>Project Structure</h2>
+
+# Project Structure
+
 <li>config/</li>
 <ul>
 	<li>config.php</li>
@@ -90,13 +94,17 @@
 <li>models/</li>
 <li>wpoets.sql</li>
 
-<h2>Notes</h2>
+
+# Notes
+
 <ul>
 	<li>Database schema is included in wpoets.sql.</li>
 	<li>Update database credentials before running the project.</li>
 	<li>Update the base URL if the project directory name is changed.</li>
 	<li>No additional dependencies are required.</li>
 </ul>
+
+
 
 # Full Stack Test
 
