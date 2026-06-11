@@ -52,7 +52,7 @@ Please answer the following questions in a markdown file called <code>Answers to
 
 <h5>1. Clone repository</h5>
 <ul>
-	<li>git clone <repo-url></li>
+	<li>git clone https://github.com/karanpgajjar/wpoets-fullstack-test.git</li>
 </ul>
 
 <h5>2. Configure database</h5>
