@@ -71,7 +71,6 @@
 	</ul>
 </ul>
 
-
 # REQUIREMENTS
 
 <ul>
@@ -81,19 +80,19 @@
 	<li>XAMPP/WAMP/MAMP</li>
 </ul>
 
-
 # Project Structure
 
-<li>config/</li>
 <ul>
-	<li>config.php</li>
-	<li>db.php</li>
+	<li>config/</li>
+	<ul>
+		<li>config.php</li>
+		<li>db.php</li>
+	</ul>
+	<li>assets/</li>
+	<li>controllers/</li>
+	<li>models/</li>
+	<li>wpoets.sql</li>
 </ul>
-<li>assets/</li>
-<li>controllers/</li>
-<li>models/</li>
-<li>wpoets.sql</li>
-
 
 # Notes
 
@@ -103,8 +102,6 @@
 	<li>Update the base URL if the project directory name is changed.</li>
 	<li>No additional dependencies are required.</li>
 </ul>
-
-
 
 # Full Stack Test
 
