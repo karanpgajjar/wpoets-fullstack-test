@@ -1,0 +1,75 @@
+:root {
+    --brand-primary: #c4351e;
+    --brand-secondary: #11324d;
+    --brand-third: #f0b91e;
+    --brand-fourth: #64b4c8;
+    --brand-fifth: #504682;
+    --brand-sixth: #2fb1fc;
+
+    --gray-darker: #2e3439;
+    --gray-dark: #424242;
+    --gray: #696969;
+    --gray-light: #adadad;
+    --gray-lighter: #d4d3d8;
+    --gray-white: #f6f6f6;
+
+    --brand-success: #56bd5b;
+    --brand-info: #0099fa;
+    --brand-warning: #f7b422;
+    --brand-danger: #e34c4c;
+
+    --brand-black: #000000;
+    --brand-white: #ffffff;
+
+    --font-body: 'Open Sans', sans-serif;
+    --font-heading: 'Titillium Web', sans-serif;
+
+    --font-size-smallest: 12px;
+    --font-size-smaller: 13px;
+    --font-size-small: 14px;
+    --font-size-base: 16px;
+    --font-size-big: 18px;
+    --font-size-large: 20px;
+    --font-size-larger: 24px;
+    --font-size-largest: 28px;
+    --font-size-huge: 34px;
+    --font-size-jumbo: 40px;
+    --font-size-giant: 64px;
+
+    --font-regular: 400;
+    --font-semibold: 600;
+    --font-bold: 700;
+
+    --gap-1: 5px;
+    --gap-2: 10px;
+    --gap-3: 15px;
+    --gap-4: 20px;
+    --gap-5: 25px;
+    --gap-6: 30px;
+    --gap-7: 40px;
+    --gap-8: 50px;
+    --gap-9: 60px;
+    --gap-10: 70px;
+
+    --pad-1: 5px;
+    --pad-2: 10px;
+    --pad-3: 12px;
+    --pad-4: 15px;
+    --pad-5: 20px;
+    --pad-6: 25px;
+    --pad-7: 30px;
+    --pad-8: 40px;
+    --pad-9: 50px;
+    --pad-10: 60px;
+
+    --br-3: 3px;
+    --br-5: 5px;
+    --br-6: 6px;
+    --br-10: 10px;
+
+    --section-bg: var(--brand-secondary);
+    --card-bg: var(--brand-white);
+    --accordion-bg: var(--gray-white);
+    --slide-overlay: var(--brand-fourth);
+    --arrow-color: var(--brand-primary);
+}

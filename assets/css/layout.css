@@ -1,0 +1,78 @@
+.container {
+    width: 100%;
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 var(--pad-7);
+}
+
+
+.dl-topnav {
+    background-color: var(--brand-secondary);
+    padding: var(--pad-2) 0;
+    text-align: right;
+}
+
+.dl-topnav__admin {
+    font-family: var(--font-heading);
+    font-size: var(--font-size-small);
+    font-weight: var(--font-semibold);
+    color: rgba(255, 255, 255, 0.75);
+    text-decoration: none;
+    padding: 5px var(--pad-4);
+    border: 1px solid rgba(255, 255, 255, 0.25);
+    border-radius: var(--br-5);
+    transition: color 0.2s ease, border-color 0.2s ease;
+}
+
+.dl-topnav__admin:hover {
+    color: var(--brand-white);
+    border-color: rgba(255, 255, 255, 0.7);
+    text-decoration: none;
+}
+
+.dl-hero {
+    background-color: var(--brand-secondary);
+    padding: var(--pad-10) 0;
+    text-align: center;
+}
+
+.dl-hero__header {
+    color: var(--brand-white);
+    margin-bottom: var(--gap-8);
+}
+
+.dl-hero__header h2 {
+    font-size: var(--font-size-jumbo);
+    margin-bottom: var(--gap-3);
+}
+
+.dl-hero__header p {
+    font-size: var(--font-size-base);
+    color: rgba(255, 255, 255, 0.75);
+    max-width: 640px;
+    margin: 0 auto;
+}
+
+.dl-panel {
+    display: flex;
+    align-items: stretch;
+    border-radius: var(--br-10);
+    overflow: hidden;
+    background: var(--card-bg);
+    min-height: 420px;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.18);
+}
+
+.dl-panel__accordion {
+    flex: 0 0 250px;
+    background: var(--brand-white);
+    display: flex;
+    flex-direction: column;
+}
+
+.dl-panel__carousel {
+    flex: 1 1 auto;
+    position: relative;
+    overflow: hidden;
+    min-height: 420px;
+}

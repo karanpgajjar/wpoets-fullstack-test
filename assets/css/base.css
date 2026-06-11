@@ -1,0 +1,92 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: var(--font-size-base);
+    -webkit-text-size-adjust: 100%;
+}
+
+body {
+    font-family: var(--font-body);
+    font-weight: var(--font-regular);
+    color: var(--gray-dark);
+    background-color: var(--brand-white);
+    line-height: 1.625;
+    -webkit-font-smoothing: antialiased;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: var(--font-heading);
+    font-weight: var(--font-bold);
+    line-height: 1.2;
+    color: inherit;
+}
+
+h1 {
+    font-size: var(--font-size-jumbo);
+}
+
+h2 {
+    font-size: var(--font-size-huge);
+}
+
+h3 {
+    font-size: var(--font-size-largest);
+}
+
+h4 {
+    font-size: var(--font-size-larger);
+}
+
+h5 {
+    font-size: var(--font-size-large);
+}
+
+h6 {
+    font-size: var(--font-size-big);
+}
+
+p {
+    margin-bottom: var(--gap-4);
+}
+
+p:last-child {
+    margin-bottom: 0;
+}
+
+a {
+    color: var(--brand-primary);
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+img,
+svg {
+    display: block;
+    max-width: 100%;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+button {
+    cursor: pointer;
+    border: none;
+    background: none;
+    font-family: inherit;
+}
